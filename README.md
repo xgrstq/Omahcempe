@@ -1,88 +1,59 @@
-🐐 Omahcempe
-Website resmi Omah Cempe — solusi ternak & aqiqah syari berbasis di Kediri, Indonesia.
-Production build aktif yang digunakan untuk kebutuhan bisnis dan kemitraan.
-📌 Concept
-Website ini dikembangkan sebagai platform digital untuk:
-Promosi layanan aqiqah & qurban
-Penawaran bibit breeding
-Edukasi & kemitraan investasi ternak
-Branding bisnis ternak modern
-Fokus pada performa, kejelasan informasi, dan konversi WhatsApp.
-🧩 Core Features
-✦ Landing Experience
-Hero CTA langsung ke layanan & investasi
-Smooth scrolling antar section
-Scroll-based active navigation detection
-✦ Dynamic Service System
-Data layanan berbasis array:
+Omahcempe
+Official website of Omah Cempe — solusi ternak & aqiqah syari berbasis di Kediri, Indonesia.
+Production build actively used for business operations and partnership acquisition.
+Overview
+Omahcempe is a modern business website developed to:
+Promote aqiqah and qurban services
+Offer breeding livestock
+Present livestock investment opportunities
+Strengthen digital brand presence
+The project emphasizes clarity, performance, and WhatsApp-driven conversion.
+Core Features
+Landing Experience
+Strong hero section with direct CTA
+Smooth scrolling navigation
+Scroll-based active section detection
+Dynamic Service System
+Services are rendered from structured data arrays:
 Kambing Aqiqah
 Hewan Qurban
 Bibit Breeding
 Manajemen Kandang
-Detail ditampilkan via modal (state-driven).
-✦ WhatsApp Integration
-Generate pesan otomatis menggunakan helper function:
+Each service includes modal-based detail rendering using React state.
+WhatsApp Integration
+Automated message generation using:
 encodeURIComponent
-Direct redirect ke wa.me
-Dirancang untuk meningkatkan conversion rate.
-✦ Investment Section
-Simulasi kemitraan
-Estimasi bagi hasil
-CTA proposal mitra
-✦ Testimonials Rendering
-Testimoni berbasis array dan di-render menggunakan mapping.
-✦ Google Maps Integration
-Embedded lokasi kandang + direct open maps.
-🛠 Tech Stack
+Direct redirection to wa.me
+Built to increase inquiry conversion rate.
+Investment Section
+Partnership explanation
+Profit simulation
+Direct proposal CTA
+Testimonials Rendering
+Customer testimonials dynamically rendered through array mapping.
+Location Integration
+Embedded Google Maps iframe with direct navigation support.
+Architecture
+Functional React Components
+React Hooks (useState, useEffect)
+Scroll event listener for active section tracking
+Modular UI pattern
+Data-driven rendering structure
+Designed for scalability and long-term maintainability.
+Tech Stack
 React (Vite)
 TailwindCSS
 JavaScript 
 Vercel (deployment)
-🎯 Architecture Approach
-Functional Component
-React Hooks (useState, useEffect)
-Scroll event listener untuk active section tracking
-Modular UI pattern
-Data-driven rendering structure
-Dirancang agar scalable dan maintainable untuk pengembangan jangka panjang.
-📦 Status
-Production build — aktif digunakan dan terus dikembangkan sesuai kebutuhan bisnis.
-🌐 Live Preview
-https://www.omahcempe.my.id/
-✨ Developed & maintained by GRH
-
-
----
-
-📱 Design Philosophy
-
-Mobile-first approach
-
+Design Approach
+Mobile-first development
 Clean business aesthetic
-
-High readability
-
 CTA-oriented layout
+Performance-focused implementation
+Status
+Production build — actively used and continuously improved based on operational needs.
 
-Performance-conscious UI
+Live Website
+https://www.omahcempe.my.id/
 
-
-
----
-
-📦 Status
-
-Production build — aktif digunakan dan dikembangkan sesuai kebutuhan operasional bisnis.
-
-
----
-
-👨‍💻 Developer Notes
-
-Project ini dirancang sebagai website komersial dengan fokus pada:
-
-Kecepatan load
-
-Struktur modular
-
-Kemudahan pengembangan lanjutan
+Developed & maintained by GRH.
