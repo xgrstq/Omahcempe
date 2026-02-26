@@ -1,9 +1,9 @@
-#Omahcempe
+# Omahcempe
 
 Website resmi Omah Cempe — solusi ternak & aqiqah syari berbasis di Kediri, Indonesia.
 Production build yang aktif digunakan untuk kebutuhan bisnis dan kemitraan.
 
-##Concept
+## 🕹️ Concept
 
 Platform digital untuk:
 - Promosi layanan aqiqah & qurban
@@ -11,7 +11,7 @@ Platform digital untuk:
 - Informasi kemitraan investasi
 - Penguatan branding bisnis
 
-###Core Features
+### Core Features
 
 - Dynamic service rendering (React state-driven)
 - WhatsApp direct integration (auto message)
@@ -20,14 +20,14 @@ Platform digital untuk:
 - Testimonials mapping system
 - Embedded Google Maps location
 
-##Tech Stack
+## ⚒️ Tech Stack
 
 - React (Vite)
 - TailwindCSS
 - JavaScript 
 - Deployed via Vercel
 
-##Live Preview
+## 🌐 Live Preview
 
 https://www.omahcempe.my.id/
 
