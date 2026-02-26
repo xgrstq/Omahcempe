@@ -1,107 +1,55 @@
-Omahcempe v2
-
-Website resmi Omah Cempe — Solusi Ternak & Aqiqah Syari berbasis di Kediri, Indonesia.
-
-Dibangun menggunakan React + Vite dengan pendekatan modular component, mobile-first design, dan optimasi pengalaman pengguna untuk kebutuhan bisnis ternak modern.
-
-Project ini merupakan production build yang aktif digunakan.
-
-
----
-
-🚀 Fitur Utama
-
-1. Landing Page Interaktif
-
-Hero section dengan CTA langsung
-
-Scroll-based active navigation
-
+🐐 Omahcempe
+Website resmi Omah Cempe — solusi ternak & aqiqah syari berbasis di Kediri, Indonesia.
+Production build aktif yang digunakan untuk kebutuhan bisnis dan kemitraan.
+📌 Concept
+Website ini dikembangkan sebagai platform digital untuk:
+Promosi layanan aqiqah & qurban
+Penawaran bibit breeding
+Edukasi & kemitraan investasi ternak
+Branding bisnis ternak modern
+Fokus pada performa, kejelasan informasi, dan konversi WhatsApp.
+🧩 Core Features
+✦ Landing Experience
+Hero CTA langsung ke layanan & investasi
 Smooth scrolling antar section
-
-
-2. Layanan Dinamis
-
+Scroll-based active navigation detection
+✦ Dynamic Service System
 Data layanan berbasis array:
-
 Kambing Aqiqah
-
 Hewan Qurban
-
 Bibit Breeding
-
 Manajemen Kandang
-
-
-Detail paket ditampilkan melalui modal state-driven (useState).
-
-3. Sistem Navigasi Adaptif
-
-Desktop fixed top navbar
-
-Mobile floating bottom navigation
-
-Active section detection via scroll listener
-
-
-4. Sistem WhatsApp Direct Integration
-
-Helper function:
-
-openWA(text)
-
-Menggunakan encodeURIComponent untuk generate pesan otomatis ke WhatsApp.
-
-5. Section Investasi
-
+Detail ditampilkan via modal (state-driven).
+✦ WhatsApp Integration
+Generate pesan otomatis menggunakan helper function:
+encodeURIComponent
+Direct redirect ke wa.me
+Dirancang untuk meningkatkan conversion rate.
+✦ Investment Section
 Simulasi kemitraan
-
 Estimasi bagi hasil
-
 CTA proposal mitra
-
-
-6. Testimoni Dinamis
-
-Data testimonial berbasis array dan di-render dengan mapping.
-
-7. Integrasi Google Maps
-
-Embedded iframe lokasi kandang.
-
-
----
-
-🧠 Arsitektur & Pendekatan
-
-Functional Component
-
-React Hooks (useState, useEffect)
-
-Scroll event tracking untuk dynamic section highlight
-
-Component-based UI structure
-
-Data-driven rendering (services & testimonials)
-
-
-Pendekatan ini mempermudah scalability dan maintainability.
-
-
----
-
+✦ Testimonials Rendering
+Testimoni berbasis array dan di-render menggunakan mapping.
+✦ Google Maps Integration
+Embedded lokasi kandang + direct open maps.
 🛠 Tech Stack
-
 React (Vite)
-
 TailwindCSS
-
-Lucide React (icon library)
-
-JavaScript (ES6+)
-
-Vercel (Deployment)
-
+JavaScript 
+Vercel (deployment)
+🎯 Architecture Approach
+Functional Component
+React Hooks (useState, useEffect)
+Scroll event listener untuk active section tracking
+Modular UI pattern
+Data-driven rendering structure
+Dirancang agar scalable dan maintainable untuk pengembangan jangka panjang.
+📦 Status
+Production build — aktif digunakan dan terus dikembangkan sesuai kebutuhan bisnis.
+🌐 Live Preview
+https://www.omahcempe.my.id/
+✨ Developed & maintained by GRH
 
 
 ---
